@@ -78,7 +78,7 @@ with st.sidebar:
 #####Load dataset#####
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\\Users\\Lenovo\\Downloads\\s16905\\unemp_youth.csv")
+    df = pd.read_csv("unemp_youth.csv")
     return df
 
 df = load_data()
